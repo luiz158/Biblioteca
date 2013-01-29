@@ -1,0 +1,11 @@
+2+2
+
+int a = 5;
+a = a * 10;
+a
+
+System.out.println("Ola mundo!");
+
+Pessoa p = new Pessoa();
+p.setNome("Marcelo");
+p.getNome()
