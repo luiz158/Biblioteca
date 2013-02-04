@@ -2,8 +2,9 @@ package org.biblioteca;
 
 public class Livro {
 
-	public String titulo;
-	public String autor;
+	String titulo;
+	String autor;
+	Pessoa pessoa;
 
 	public Livro(String string) {
 		this.titulo = string;
@@ -20,6 +21,15 @@ public class Livro {
 
 	public String getTitulo() {
 		return titulo;
+	}
+
+	public Pessoa getPessoa() {
+		return this.pessoa;
+	}
+
+	public void setPessoa(Pessoa p2) {
+		this.pessoa = p2;
+		
 	}
 
 }
