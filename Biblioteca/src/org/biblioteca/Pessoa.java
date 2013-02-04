@@ -4,7 +4,6 @@ public class Pessoa {
 	//Atributos		
 	private String nome;		//Nome da pessoa
 	private int maxLivros;		//Número máximo de livros que a pessoa pode emprestar
-	private float exemplo;
 	
 	//Construtores
 	public Pessoa() {
@@ -27,5 +26,9 @@ public class Pessoa {
 
 	public void setMaxLivros(int maxLivros) {
 		this.maxLivros = maxLivros;
+	}
+	
+	public String toString() {
+		return this.getNome() + " tem " + this.getMaxLivros() + " livros.";
 	}
 }
