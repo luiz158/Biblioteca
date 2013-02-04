@@ -27,4 +27,11 @@ public class PessoaTest {
 		assertEquals(10, p3.getMaxLivros());
 	}
 
+	public void testToString() {
+		Pessoa p4 = new Pessoa();
+		p4.setNome("Bart Simpson");
+		p4.setMaxLivros(7);
+		String teste = "Bart Simpson tem 7 livros.";
+		assertEquals(teste, p4.toString());
+	}
 }
