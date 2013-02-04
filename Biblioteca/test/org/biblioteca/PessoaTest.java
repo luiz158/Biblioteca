@@ -1,10 +1,11 @@
 package org.biblioteca;
 
 import static org.junit.Assert.*;
+import junit.framework.TestCase;
 
 import org.junit.Test;
 
-public class PessoaTest {
+public class PessoaTest extends TestCase{
 
 	@Test
 	public void testPessoa() {
