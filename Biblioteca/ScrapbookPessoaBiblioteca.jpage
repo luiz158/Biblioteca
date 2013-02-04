@@ -1,11 +1,20 @@
-2+2
+ArrayList<Livro> lista = new ArrayList<Livro>();
 
-int a = 5;
-a = a * 10;
-a
+Livro l1 = new Livro("Grandes Expectativas");
 
-System.out.println("Ola mundo!");
+Livro l2 = new Livro("Guerra e Paz");
 
-Pessoa p = new Pessoa();
-p.setNome("Marcelo");
-p.getNome()
+lista.add(l1);
+lista.add(l2);
+
+Pessoa p1 = new Pessoa();
+
+p1.setNome("Bart");
+
+l1.setPessoa(p1);
+
+//lista.get(0).getPessoa().getNome()
+
+lista.remove(l1);
+
+lista
